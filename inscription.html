@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tpWebStructuree.css">
+    <title>Page d'inscription</title>
+</head>
+<header> 
+    <h1>Rejoignez-Nous ! </h1>
+    <nav>
+        <a href="accueil.html" target="_blank">
+            <li>
+            Accueil
+            </li>
+        </a>
+
+        <a href="produits.html" target="_blank">
+            <li>
+            Nos produits
+            </li>
+    </a>
+
+        <a href="connexion.html" target="_blank">
+            <li>
+            Se connecter
+            </li>
+    </a>
+        
+    </nav>
+
+</header>
+
+<body>
+
+    <form method="GET" action="exoForm.html">
+        <h3><label for="name">Prénom*:</label></h3>
+        <input type="text" name="Prénom" id="name" placeholder="Entrez votre prénom" required>
+        
+        <h3><label for="name">Mot de Passe*:</label></h3>
+        <input type="text" name="nom" id="name" placeholder="Entrez votre MDP" required>
+
+        <h3><label for="name">Tél:</label></h3>
+        <input type="telTelephone" name="nom" pattern="[0-9]" id="name">
+
+        <h3><label for="name">Email*:</label></h3>
+        <input type="email" name="Email" id="name" placeholder="ex: email@hotmail.fr" required>
+
+        
+    
+        <h3>Date de naissance</h3>
+        <input type="date" name="date">
+
+<hr>        
+        <aside>
+            <input type="checkbox" name="newsletter" id="newsletter" >
+            <label class="news" for="newsletter">Je souhaite recevoir les news du site</label>
+                <br>
+
+        </aside>
+        
+
+        <input type="submit" value="Envoyer">
+        
+
+    </form>
+    
+</body>
+
+<footer class="footInscription">
+    &copy; Site protégé par Manu Corporation
+</footer>
+</html>

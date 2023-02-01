@@ -1,0 +1,160 @@
+*{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");
+    color: white;
+}
+
+.textAccueil{
+    font-size:3em;
+}
+
+nav{
+    text-align: center;
+    border-bottom: none;
+    font-size: 1.5em;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+    
+
+/* image d'accueil */
+    
+.imgRefonte{
+    width: 15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* spin image accueil */
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+header{
+    border-width: 15em;
+}
+
+form{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+input[type="submit"]{
+    font-size: 20px;
+}
+
+.footerGen{
+position:absolute;
+bottom: 0;
+}
+
+.footerInscription{
+    position:absolute;
+    }
+
+
+
+.news{
+    font-size: .5em;
+    font-style: italic;
+}
+
+input[value="J'achète"]{
+    margin-left:5em;
+}
+
+
+section{
+    display: flex;
+     justify-content:space-between;
+
+    }
+
+
+    .imgSamsung {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      /* options hover images samsung */
+
+    .optionImg01{
+        position: relative;
+        width: 50%;
+      }
+    .optionImg01:hover .overlay {
+        opacity: 1;
+      }
+
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+      }
+
+
+       .img02{
+        color: white;
+        width:50em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        content:url("https://mobilemunk.io/wp-content/uploads/2021/07/S22-Ultra-1.jpg");
+      } 
+
+
+      /* option hover images apple */
+
+      .imgApple {
+        display: block;
+        width: 24em;
+        height: auto;
+      }
+
+      
+       .img03{
+        color: white;
+        width:38em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        content:url("https://cdn2.computeridee.nl/var/www/nl.computeridee/current/app/assets/media/uploads/2020/06/24/ios14-2.jpg");
+      } 
+
+
+
+
+
+
+
+
